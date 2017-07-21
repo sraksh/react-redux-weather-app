@@ -10,8 +10,8 @@ import App from './components/App';
 const createStoreWithMiddleware = applyMiddleware(ReduxPromise)(createStore);
 
 ReactDOM.render(
-    <Provider store={createStoreWithMiddleware(allReducers)}>
-        <App />
-    </Provider>,
-    document.getElementById('root')
+  <Provider store={createStoreWithMiddleware(allReducers)}>
+    <App />
+  </Provider>,
+  document.getElementById('root')
 );
