@@ -33,6 +33,7 @@ class SearchBar extends Component{
       <input
         className="form-control"
         value={this.state.term}
+        placeholder="Enter city name"
         onChange={this.onInputChange}
       />
       <span className="input-group-btn">
